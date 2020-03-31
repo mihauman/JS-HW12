@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Misha Simanov</h1>
+        <h2>Работа с сервером</h2>
+        <div class="button-wrapper" >
+            <button type="button" class = "buttons" id="button-home"> Home </button>
+            <button type="button" class = "buttons" id="button-people"> Charactes </button>
+            <button type="button" class = "buttons" id="button-planets"> Planets </button>
+        </div>
+        <div class="usersNavigate">
+            <label for="filmNavigate" id="helpId">Film episode (1-7): </label>
+            <input id="filmNavigate" type="number" value="1" max="7"></br>
+        </div>
+        <div class="users"></div>
+        <div class="planets"></div>
+        <div class="planets_button_nav">
+            <button type="button" class = "buttons" id="next"> Next </button>
+            <button type="button" class = "buttons" id="previous"> Previous </button>
+        </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

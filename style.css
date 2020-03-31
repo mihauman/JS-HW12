@@ -1,0 +1,129 @@
+html {
+  background-color: rgb(21, 162, 172);
+    font-size: 10px;
+    background-size: cover;
+}
+h1{
+font-family: 'Courier New';
+color: #000;
+font-size: 40px;
+text-align: center;
+}
+h2{
+font-family: 'Courier New';
+color: #000;
+font-size: 40px;
+text-align: center;
+}
+
+.buttons {
+  background-color: #002fff; 
+    border: none;
+    color: white;
+    border-radius: 45px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } 
+  a.buttons:hover { 
+    background-position: right center;
+   }
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button-wrapper > .buttons + .buttons {
+  margin-left: 40px;
+}
+
+.users{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding-top: 60px;
+}
+
+.user:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.user {
+  width: 300px;
+  background-color:  #002fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 40px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Courier New', cursive;
+  font-size: 30px;
+}
+
+.photo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+.planets{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 30px;
+}
+
+.planets_names{
+  color: #000000;
+  font-family: 'Courier New', cursive;
+  font-size: 40px;
+}
+
+.planets_button_nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.planets_button_nav > .buttons + .buttons {
+  margin-right: 30px;
+}
+
+#next {
+  display: none;
+}
+
+#previous {
+  display: none;
+}
+
+.usersNavigate{
+  display: none;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+#filmNavigate{
+  font-size: 35px;
+  color: black;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px 2 white;
+  background-color: #ffffff;
+  
+}
+
+#helpId{
+  font-size: 35px;
+  color:black;
+  margin:0;
+}
